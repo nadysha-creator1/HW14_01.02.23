@@ -30,7 +30,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Название книги: " + title + ", год издания: " + publishingYear + ", автор: " + author;
+        return "Название книги: " + title + ", год издания: " + publishingYear + ", автор: " + author+ ".";
     }
     @Override
     public boolean equals (Object o) {
